@@ -46,14 +46,14 @@ const LinkSeperator = Styled.div`
 const Header = () => {
   return (
     <StyledNav>
-      <LinkSeperator><StyledIndexLink to="/"
+      <LinkSeperator><StyledIndexLink to="/#"
         activeStyle={{ backgroundColor: '#94A1C6' }}  >Home</StyledIndexLink></LinkSeperator>
 
-      <LinkSeperator><StyledLink to="/AboutContainer" activeStyle={{ backgroundColor: '#94A1C6' }}  >About</StyledLink></LinkSeperator>
+      <LinkSeperator><StyledLink to="#/AboutContainer" activeStyle={{ backgroundColor: '#94A1C6' }}  >About</StyledLink></LinkSeperator>
 
-      <LinkSeperator><StyledLink to="/ContactContainer" activeStyle={{ backgroundColor: '#94A1C6' }} >Contact</StyledLink></LinkSeperator>
+      <LinkSeperator><StyledLink to="#/ContactContainer" activeStyle={{ backgroundColor: '#94A1C6' }} >Contact</StyledLink></LinkSeperator>
 
-      <LinkSeperator><StyledLink to="/HelpContainer" activeStyle={{ backgroundColor: '#94A1C6' }} >Help</StyledLink></LinkSeperator>
+      <LinkSeperator><StyledLink to="#/HelpContainer" activeStyle={{ backgroundColor: '#94A1C6' }} >Help</StyledLink></LinkSeperator>
     </StyledNav>
   );
 };
